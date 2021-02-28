@@ -1,0 +1,53 @@
+.hs-bg-color {
+  background-color: rgb(78, 163, 255);
+  animation-name: hsbg;
+  animation-duration: 10s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes hsbg {
+  from {background-color: rgb(78, 163, 255);}
+  to {background-color: rgb(0, 26, 54);}
+}
+
+.hs-btn-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hs-btn {
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: 2px solid white;
+  box-shadow: 0px 1px 2px 1px black;
+  color: white;
+  text-shadow: 0 1px black, 0 2px black, 0 0 1px black;
+  font-family: monospace;
+  background-color: #6b6b6b80;
+}
+.hs-btn:hover {
+  background-color: #52525296;
+}
+.hs-btn:active {
+  background-color: #464646ad;
+}
+
+.hs-menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+#hs-username-group {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.hs-username {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}

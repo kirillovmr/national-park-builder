@@ -1,0 +1,2 @@
+bash scripts:
+bash Scripts/Configure.sh release && bash Scripts/Build@Run.sh release
